@@ -1,0 +1,14 @@
+# Default values for desafiohelm.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+deployment:
+  name: deployment-desafio-helm
+  appName: desafio-helm
+
+service:
+  name: service-desafio-helm
+
+ingress:
+  name: ingress-desafio-helm
+  host: hello-lucasmf.aula.jac.bsb.br
