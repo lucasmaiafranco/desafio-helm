@@ -11,4 +11,4 @@ service:
 
 ingress:
   name: ingress-desafio-helm
-  host: hello-lucasmf.aula.jac.bsb.br
+  host: hello-lucasmf.aula..jacexperts.io
