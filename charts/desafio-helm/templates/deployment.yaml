@@ -21,7 +21,7 @@ spec:
         app: {{ .Values.deployment.appName }}
     spec:
       containers:
-        - image: peteindockerhub/hello-rancher:1.0.2
+      - image: peteindockerhub/hello-rancher:1.0.2
         imagePullPolicy: Always
         name: desafio-helm
         ports:
